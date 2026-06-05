@@ -1,7 +1,8 @@
 <div align="center">
   <img src="https://img.icons8.com/color/96/000000/chat--v1.png" alt="Quick Chat Logo">
   <h1>✨ Quick Chat ✨</h1>
-  <p><b>A modern, feature-rich, and real-time web messaging platform built with Flask.</b></p>
+  <p><b>A modern, feature-rich, and real-time web page and mobile application built with Flask.</b></p>
+  <p>🌐 <b>Live Web App:</b> <a href="http://sdck.pythonanywhere.com/login">sdck.pythonanywhere.com/login</a></p>
 
   <!-- Badges -->
   <p>
