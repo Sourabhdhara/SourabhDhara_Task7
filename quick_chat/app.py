@@ -331,6 +331,10 @@ def register():
             flash("Username and password are required.", "error")
             return render_template("register.html")
 
+        if not email:                              # remove this check if you want to make email optional
+            flash("Email is required.", "error")
+            return render_template("register.html")
+
         if email and ("@" not in email or "." not in email):
             flash("Please enter a valid email address.", "error")
             return render_template("register.html")
